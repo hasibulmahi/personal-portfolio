@@ -55,7 +55,7 @@ function Hero(props) {
                       color: "#7E74F1",
                     }}
                   >
-                    Mahi Chowdhury
+                    Mahi
                   </Typography>
                 </Box>
               </Box>
