@@ -16,7 +16,7 @@ function Hero(props) {
       >
         <Container>
           <Grid container justifyContent={"space-between"}>
-            <Grid item sm={5}>
+            <Grid item md={5}>
               <Box
                 sx={{
                   display: "inline-flex",
@@ -85,19 +85,23 @@ function Hero(props) {
                 paddingLeft: "80px",
               }}
               item
-              sm={5}
+              sm={7}
             >
               <Box
                 sx={{
                   position: "relative",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "flex-end",
                 }}
               >
                 <Box
                   sx={{
                     position: "relative",
+
                     zIndex: "20",
-                    top: "30px",
-                    left: "60px",
+                    top: "43px",
+                    right: "179px",
                   }}
                 >
                   <Image
@@ -110,14 +114,14 @@ function Hero(props) {
                 <Box
                   sx={{
                     position: "absolute",
-                    height: "455px",
-                    width: "472px",
+                    height: "389px",
+                    width: "314px",
                     zIndex: "2",
-                    top: "-125px",
-                    left: "31px",
+                    top: "-46px",
+                    left: "121px",
                   }}
                 >
-                  <Image src="/group-1.png" fill />
+                  <Image src="/front.png" fill />
                 </Box>
                 <Box
                   sx={{
@@ -126,7 +130,7 @@ function Hero(props) {
                     width: "355px",
                     zIndex: "1",
                     top: "-70px",
-                    left: "0",
+                    right: "117px",
                   }}
                 >
                   <Image src="/back.png" fill />
