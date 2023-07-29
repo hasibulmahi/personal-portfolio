@@ -25,22 +25,25 @@ function Services(props) {
       />
 
       <Container>
-        <Grid container spacing={10}>
+        <Grid container spacing={4}>
           {ServicesItems &&
             ServicesItems.map((item, i) => {
               return (
-                <Grid item sm={4} key={i}>
+                <Grid item md={4} xs={12} key={i}>
                   <Card
+                    className=" my_personal_dev"
                     sx={{
                       // textAlign: 'center',
-                      px: "3.25rem",
-                      height: "270px",
-                      width: "220px",
+                      px: {
+                        sm: "3.25rem",
+                        xs: "1.25rem",
+                      },
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
                       flexFlow: "column",
                       boxShadow: "none",
+                      py: 8,
                     }}
                   >
                     <IconButton

@@ -23,6 +23,10 @@ function SectionTitle({ subTitle, title, alignment = "center" }) {
               <Typography
                 sx={{
                   letterSpacing: ".75rem",
+                  fontSize: {
+                    md: "1rem",
+                    xs: ".75rem",
+                  },
                 }}
               >
                 - {subTitle}
@@ -34,6 +38,11 @@ function SectionTitle({ subTitle, title, alignment = "center" }) {
                 sx={{
                   fontWeight: "700",
                   marginBottom: "3.75rem",
+                  fontSize: {
+                    md: "3rem",
+                    sm: "2rem",
+                    xs: "1.5rem",
+                  },
                 }}
               >
                 {title}

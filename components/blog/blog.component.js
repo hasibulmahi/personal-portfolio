@@ -17,7 +17,11 @@ import { PersonalBlog } from "./blog-seeds";
 
 function Blog(props) {
   return (
-    <SectionWrapper>
+    <SectionWrapper
+      sectionSx={{
+        bgcolor: "#F1F1F1",
+      }}
+    >
       <SectionTitle
         subTitle={"MY ARTICLES"}
         title={"Personal Blog"}
