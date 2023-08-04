@@ -118,7 +118,7 @@ function Hero(props) {
                     width: "314px",
                     zIndex: "2",
                     top: "-46px",
-                    left: "121px",
+                    left: "140px",
                   }}
                 >
                   <Image src="/front.png" fill />
