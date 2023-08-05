@@ -86,8 +86,17 @@ function Contact(props) {
                     multiline
                     rows={6}
                   />
-                  <Button variant="contained" type="submit" sx={{ mt: 2 }}>
-                    Send Message
+                  <Button
+                    variant="contained"
+                    type="submit"
+                    sx={{
+                      px: 33,
+                      py: 1,
+                      bgcolor: "#7E74F1",
+                      textTransform: "capitalize"
+                    }}
+                  >
+                    Submit
                   </Button>
                 </form>
               </Box>

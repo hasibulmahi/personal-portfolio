@@ -27,7 +27,7 @@ function Portfolios(props) {
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", background: "black" }}
+        style={{ ...style, display: "block", background: "black",  borderRadius: "10px" }}
         onClick={onClick}
       />
     );
@@ -38,7 +38,7 @@ function Portfolios(props) {
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", background: "black" }}
+        style={{ ...style, display: "block", background: "black", borderRadius: "10px" }}
         onClick={onClick}
       />
     );
