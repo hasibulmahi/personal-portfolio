@@ -32,7 +32,7 @@ function Contact(props) {
       />
 
       <Container>
-        <Grid container>
+        <Grid container justifyContent="space-between">
           <Grid item xs={6}>
             <Box>
               <Box>
@@ -93,7 +93,7 @@ function Contact(props) {
                       px: 33,
                       py: 1,
                       bgcolor: "#7E74F1",
-                      textTransform: "capitalize"
+                      textTransform: "capitalize",
                     }}
                   >
                     Submit
@@ -102,7 +102,46 @@ function Contact(props) {
               </Box>
             </Box>
           </Grid>
-          <Grid></Grid>
+          <Grid item xs={3}>
+            <Box
+              sx={{
+                py: 10,
+              }}
+            >
+              <Box
+                sx={{
+                  mb: 4,
+                }}
+              >
+                <Typography variant="h5" fontSize={13} fontWeight={500}>
+                  Address
+                </Typography>
+                <Typography fontSize={13}>
+                  3424 Layman Avenue, Fayetteville, NC
+                </Typography>
+              </Box>
+              <Box
+                sx={{
+                  mb: 4,
+                }}
+              >
+                <Typography variant="h5" fontSize={13} fontWeight={500}>
+                  Phone
+                </Typography>
+                <Typography fontSize={13}>+8801711181117</Typography>
+              </Box>
+              <Box
+                sx={{
+                  mb: 4,
+                }}
+              >
+                <Typography variant="h5" fontSize={13} fontWeight={500}>
+                  Email
+                </Typography>
+                <Typography fontSize={13}>hasibulmahi@gmail.com</Typography>
+              </Box>
+            </Box>
+          </Grid>
         </Grid>
       </Container>
     </SectionWrapper>
