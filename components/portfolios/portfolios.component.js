@@ -99,7 +99,7 @@ function Portfolios(props) {
                     <Box key={i}>
                       <Box
                         sx={{
-                          px: 4,
+                          px: 4
                         }}
                       >
                         <Box

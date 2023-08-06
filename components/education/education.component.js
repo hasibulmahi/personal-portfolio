@@ -73,7 +73,7 @@ function Education(props) {
             <Stack>
               <Box
                 sx={{
-                  mb: 4,
+                  mb: 5,
                 }}
               >
                 <Typography
@@ -88,7 +88,7 @@ function Education(props) {
               </Box>
               <Box
                 sx={{
-                  mb: 4,
+                  mb: 5,
                 }}
               >
                 <Typography
@@ -103,7 +103,7 @@ function Education(props) {
               </Box>
               <Box
                 sx={{
-                  mb: 4,
+                  mb: 5,
                 }}
               >
                 <Typography
