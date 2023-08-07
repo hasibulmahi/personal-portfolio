@@ -3,12 +3,15 @@ import {
   Button,
   Container,
   Grid,
+  IconButton,
+  Stack,
   TextField,
   Typography,
 } from "@mui/material";
 import React, { useState } from "react";
 import SectionWrapper from "../section-wrapper/section-wrapper.component";
 import SectionTitle from "../section-title/section-title.component";
+import { ContactItem } from "./contact.seeds";
 
 function Contact(props) {
   const [name, setName] = useState("");
@@ -102,45 +105,38 @@ function Contact(props) {
               </Box>
             </Box>
           </Grid>
-          <Grid item xs={3}>
-            <Box
-              sx={{
-                py: 10,
-              }}
-            >
-              <Box
-                sx={{
-                  mb: 4,
-                }}
-              >
-                <Typography variant="h5" fontSize={13} fontWeight={500}>
-                  Address
-                </Typography>
-                <Typography fontSize={13}>
-                  3424 Layman Avenue, Fayetteville, NC
-                </Typography>
-              </Box>
-              <Box
-                sx={{
-                  mb: 4,
-                }}
-              >
-                <Typography variant="h5" fontSize={13} fontWeight={500}>
-                  Phone
-                </Typography>
-                <Typography fontSize={13}>+8801711181117</Typography>
-              </Box>
-              <Box
-                sx={{
-                  mb: 4,
-                }}
-              >
-                <Typography variant="h5" fontSize={13} fontWeight={500}>
-                  Email
-                </Typography>
-                <Typography fontSize={13}>hasibulmahi@gmail.com</Typography>
-              </Box>
-            </Box>
+          <Grid item xs={4}>
+            {ContactItem &&
+              ContactItem.map((item, i) => {
+                return (
+                  <Stack
+                    sx={{
+                      py: "5px",
+                    }}
+                    direction="row"
+                    key={i}
+                  >
+                    <IconButton
+                      sx={{
+                        marginRight: 2,
+                      }}
+                    >
+                      {item.icon}
+                    </IconButton>
+                    <Stack
+                      sx={{
+                        mb: 2,
+                        paddingTop: 2,
+                      }}
+                    >
+                      <Typography variant="h5" fontSize={13} fontWeight={500}>
+                        {item.name}
+                      </Typography>
+                      <Typography fontSize={13}>{item.description}</Typography>
+                    </Stack>
+                  </Stack>
+                );
+              })}
           </Grid>
         </Grid>
       </Container>
