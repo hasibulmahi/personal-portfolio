@@ -92,9 +92,8 @@ function Contact(props) {
                   <Button
                     variant="contained"
                     type="submit"
+                    fullWidth
                     sx={{
-                      px: 33,
-                      py: 1,
                       bgcolor: "#7E74F1",
                       textTransform: "capitalize",
                     }}
