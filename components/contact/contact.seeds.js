@@ -6,7 +6,7 @@ export const ContactItem = [
     {
         icon: <PinDropIcon/>,
         name: "Address",
-        description: "YKSG-1, Daffodil International University, Birulia Savar, Dhaka",
+        description: "YKSG-1, Daffodil International University, Birulia, Savar, Dhaka",
         
     },
     {
