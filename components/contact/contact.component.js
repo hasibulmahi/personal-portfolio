@@ -111,22 +111,25 @@ function Contact(props) {
                 return (
                   <Stack
                     sx={{
-                      py: "5px",
+                      py: "10px",
                     }}
                     direction="row"
                     key={i}
                   >
-                    <IconButton
-                      sx={{
-                        marginRight: 2,
-                      }}
-                    >
-                      {item.icon}
-                    </IconButton>
+                    <Box>
+                      <IconButton
+                        sx={{
+                          marginRight: 2,
+                          borderRadius: "10px",
+                          color: "#9670ff",
+                        }}
+                      >
+                        {item.icon}
+                      </IconButton>
+                    </Box>
                     <Stack
                       sx={{
                         mb: 2,
-                        paddingTop: 2,
                       }}
                     >
                       <Typography variant="h5" fontSize={13} fontWeight={500}>
