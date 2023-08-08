@@ -26,7 +26,7 @@ function Contact(props) {
   return (
     <SectionWrapper
       sectionSx={{
-        backgroundImage: `url(${imageURL})`
+        backgroundImage: `url(${imageURL})`,
       }}
     >
       <SectionTitle

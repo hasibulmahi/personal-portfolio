@@ -20,7 +20,7 @@ function Blog(props) {
   return (
     <SectionWrapper
       sectionSx={{
-        backgroundImage: `url(${imageURL})`
+        backgroundImage: `url(${imageURL})`,
       }}
     >
       <SectionTitle

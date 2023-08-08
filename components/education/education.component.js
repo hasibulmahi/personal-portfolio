@@ -12,8 +12,6 @@ import {
 import { EducationItem } from "./education.seeds";
 import EducationalTimeline from "./education-timeline";
 
-
-
 function LinearProgressWithLabel(props) {
   return (
     <Box sx={{ display: "flex", alignItems: "center" }}>
@@ -37,9 +35,11 @@ const imageURL = "/white-bg.png";
 
 function Education(props) {
   return (
-    <SectionWrapper sectionSx={{
-      backgroundImage: `url(${imageURL})`
-    }}>
+    <SectionWrapper
+      sectionSx={{
+        backgroundImage: `url(${imageURL})`,
+      }}
+    >
       <SectionTitle
         subTitle={"LEARNING PATH"}
         title={"Education & Skill"}
