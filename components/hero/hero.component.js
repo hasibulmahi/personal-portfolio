@@ -98,7 +98,6 @@ function Hero(props) {
                 <Box
                   sx={{
                     position: "relative",
-
                     zIndex: "20",
                     top: "43px",
                     right: "179px",
