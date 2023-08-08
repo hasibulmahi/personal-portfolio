@@ -5,9 +5,15 @@ import { Box, Container, Grid, IconButton, Typography } from "@mui/material";
 import SectionWrapper from "../section-wrapper/section-wrapper.component";
 import Image from "next/image";
 
+const imageURL = "/white-bg.png";
+
 function Hero(props) {
   return (
-    <SectionWrapper>
+    <SectionWrapper
+      sectionSx={{
+        backgroundImage: `url(${imageURL})`,
+      }}
+    >
       <Box
         sx={{
           marginTop: "64px",

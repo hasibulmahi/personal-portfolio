@@ -1,5 +1,8 @@
 import { Box } from "@mui/material";
 import React from "react";
+import { styled } from "@mui/system";
+
+// const imageURL = "/white-bg.png";
 
 function SectionWrapper({
   pt = "9.375rem",
@@ -12,6 +15,7 @@ function SectionWrapper({
       sx={{
         paddingTop: pt,
         paddingBottom: pb,
+        // backgroundImage: `url(${imageURL})`,
         ...sectionSx,
       }}
     >

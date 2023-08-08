@@ -58,7 +58,7 @@ function Blog(props) {
                         <Chip
                           sx={{
                             fontSize: "10px",
-                            mb: "5px",
+                            mb: "10px",
                           }}
                           key={i}
                           label={item.tags}
@@ -69,9 +69,9 @@ function Blog(props) {
                       <Typography
                         sx={{
                           mb: "10px",
-                          lineHeight: "25px",
+                          lineHeight: "20px",
                         }}
-                        fontSize={10}
+                        fontSize={12}
                       >
                         {item.description}
                       </Typography>

@@ -27,7 +27,12 @@ function Portfolios(props) {
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", background: "black",  borderRadius: "10px" }}
+        style={{
+          ...style,
+          display: "block",
+          background: "black",
+          borderRadius: "10px",
+        }}
         onClick={onClick}
       />
     );
@@ -38,7 +43,12 @@ function Portfolios(props) {
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", background: "black", borderRadius: "10px" }}
+        style={{
+          ...style,
+          display: "block",
+          background: "black",
+          borderRadius: "10px",
+        }}
         onClick={onClick}
       />
     );
@@ -79,9 +89,13 @@ function Portfolios(props) {
       },
     ],
   };
-
+  const imageURL = "/white-bg.png";
   return (
-    <SectionWrapper>
+    <SectionWrapper
+      sectionSx={{
+        backgroundImage: `url(${imageURL})`,
+      }}
+    >
       <SectionTitle
         subTitle={"MY WORKS"}
         title={"Featured Portfolios"}
@@ -99,7 +113,7 @@ function Portfolios(props) {
                     <Box key={i}>
                       <Box
                         sx={{
-                          px: 4
+                          px: 4,
                         }}
                       >
                         <Box

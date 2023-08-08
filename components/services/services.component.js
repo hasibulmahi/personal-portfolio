@@ -11,11 +11,13 @@ import { ServicesItems } from "./services-items.seeds";
 import SectionTitle from "../section-title/section-title.component";
 import SectionWrapper from "../section-wrapper/section-wrapper.component";
 
+const imageURL = "/grey-bg.png";
+
 function Services(props) {
   return (
     <SectionWrapper
       sectionSx={{
-        bgcolor: "#F1F1F1",
+        backgroundImage: `url(${imageURL})`,
       }}
     >
       <SectionTitle
