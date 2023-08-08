@@ -21,10 +21,12 @@ function Contact(props) {
   const handleSubmit = (e) => {
     e.preventDefault();
   };
+
+  const imageURL = "/grey-bg.png";
   return (
     <SectionWrapper
       sectionSx={{
-        bgcolor: "#F1F1F1",
+        backgroundImage: `url(${imageURL})`
       }}
     >
       <SectionTitle

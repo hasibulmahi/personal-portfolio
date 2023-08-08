@@ -14,12 +14,13 @@ import {
   Typography,
 } from "@mui/material";
 import { PersonalBlog } from "./blog-seeds";
+const imageURL = "/grey-bg.png";
 
 function Blog(props) {
   return (
     <SectionWrapper
       sectionSx={{
-        bgcolor: "#F1F1F1",
+        backgroundImage: `url(${imageURL})`
       }}
     >
       <SectionTitle
