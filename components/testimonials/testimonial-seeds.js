@@ -1,6 +1,6 @@
 export const ClientReview = [
   {
-    image: "/blog-1.png",
+    image: "/person-1.png",
     title: "KMA SALAM",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet. Fusce finibus ...",
@@ -8,7 +8,7 @@ export const ClientReview = [
     btn: "Continue Reading",
   },
   {
-    image: "/blog-1.png",
+    image: "/person-1.png",
     title: "KMA SALAM",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet. Fusce finibus ...",
@@ -16,7 +16,7 @@ export const ClientReview = [
     btn: "Continue Reading",
   },
   {
-    image: "/blog-1.png",
+    image: "/person-1.png",
     title: "KMA SALAM",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet. Fusce finibus ...",
