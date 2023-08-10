@@ -80,7 +80,9 @@ function Hero(props) {
               <Box>
                 {FooterSocialMedia &&
                   FooterSocialMedia.map((item, i) => (
-                    <IconButton key={i} aria-label="delete" href={item.link}>
+                    <IconButton sx={{
+                      color: "black"
+                    }} key={i} aria-label="delete" href={item.link}>
                       {item.icon}
                     </IconButton>
                   ))}

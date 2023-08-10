@@ -13,10 +13,10 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
-import { PersonalBlog } from "./blog-seeds";
+import { ClientReview } from "./testimonial-seeds";
 const imageURL = "/grey-bg.png";
 
-function Blog(props) {
+function Testimonial(props) {
   return (
     <SectionWrapper
       sectionSx={{
@@ -24,16 +24,16 @@ function Blog(props) {
       }}
     >
       <SectionTitle
-        subTitle={"MY ARTICLES"}
-        title={"Personal Blog"}
+        subTitle={"MY CLIENTS"}
+        title={"Testimonials"}
         alignItems={"center"}
         alignment="center"
       />
 
       <Container>
         <Grid container spacing={4}>
-          {PersonalBlog &&
-            PersonalBlog.map((item, i) => {
+          {ClientReview &&
+            ClientReview.map((item, i) => {
               return (
                 <Grid item xs={4} key={i}>
                   <Card>
@@ -107,4 +107,4 @@ function Blog(props) {
   );
 }
 
-export default Blog;
+export default Testimonial;

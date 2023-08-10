@@ -17,12 +17,15 @@ function Footer({ bg }) {
       <Box>
         {FooterSocialMedia &&
           FooterSocialMedia.map((item, i) => (
-            <IconButton key={i} aria-label="delete" href={item.link}>
+            <IconButton sx={{
+              mb: 2,
+              color: "#000"
+            }} key={i} aria-label="delete" href={item.link}>
               {item.icon}
             </IconButton>
           ))}
       </Box>
-      <Typography>© 2023 - Hasibul Mahi</Typography>
+      <Typography fontSize={13}>© 2023 - Hasibul Mahi</Typography>
     </Box>
   );
 }

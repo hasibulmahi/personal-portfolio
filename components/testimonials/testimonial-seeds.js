@@ -1,26 +1,26 @@
-export const PersonalBlog = [
+export const ClientReview = [
   {
     image: "/blog-1.png",
-    title: "How to prototype in figma",
+    title: "KMA SALAM",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet. Fusce finibus ...",
-    tags: "July 15, 2021",
+    tags: "Full Stack Web Developer",
     btn: "Continue Reading",
   },
   {
     image: "/blog-1.png",
-    title: "How to prototype in figma",
+    title: "KMA SALAM",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet. Fusce finibus ...",
-    tags: "July 15, 2021",
+    tags: "Full Stack Web Developer",
     btn: "Continue Reading",
   },
   {
     image: "/blog-1.png",
-    title: "How to prototype in figma",
+    title: "KMA SALAM",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet. Fusce finibus ...",
-    tags: "July 15, 2021",
+    tags: "Full Stack Web Developer",
     btn: "Continue Reading",
   },
 ];
