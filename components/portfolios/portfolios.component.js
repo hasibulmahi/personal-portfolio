@@ -167,8 +167,8 @@ function Portfolios(props) {
                         <Box
                           sx={{
                             position: "relative",
-                            height: "370px",
-                            width: "100%",
+                            height: "150px",
+                            width: "300px",
                           }}
                         >
                           <Image
@@ -185,6 +185,8 @@ function Portfolios(props) {
                             borderColor: "#F1F1F1",
                             px: "15px",
                             py: "20px",
+                            height: "50px",
+                            width: "269px",
                           }}
                         >
                           <Typography
