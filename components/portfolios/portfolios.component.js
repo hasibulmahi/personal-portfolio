@@ -4,6 +4,7 @@ import SectionTitle from "../section-title/section-title.component";
 import Image from "next/image";
 import {
   Box,
+  Button,
   Chip,
   Container,
   Grid,
@@ -16,6 +17,33 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { portfolios } from "./portfolio-seeds";
 import LinkIcon from "@mui/icons-material/Link";
+import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
+import ChevronRightIcon from "@mui/icons-material/ChevronRight";
+
+function SliderButton({ buttonType, icon, handleClick }) {
+  return (
+    <Button
+      onClick={handleClick}
+      sx={{
+        position: "absolute",
+        left: buttonType === "prev" ? 0 : "initial",
+        right: buttonType === "next" ? 0 : "initial",
+        top: "50%",
+        transform: "translateY(-50%)",
+        minWidth: "initial",
+        maxWidth: "initial",
+        display: "inline-flex",
+        height: 25,
+        width: 25,
+        borderRadius: "50%",
+        zIndex: "999",
+        p: 0,
+      }}
+    >
+      {icon}
+    </Button>
+  );
+}
 
 function Portfolios(props) {
   const ImageLoader = ({ src, width, quality }) => {
@@ -25,15 +53,10 @@ function Portfolios(props) {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
-      <div
-        className={className}
-        style={{
-          ...style,
-          display: "block",
-          background: "black",
-          borderRadius: "10px",
-        }}
-        onClick={onClick}
+      <SliderButton
+        buttonType={"next"}
+        handleClick={onClick}
+        icon={<ChevronRightIcon />}
       />
     );
   }
@@ -41,16 +64,40 @@ function Portfolios(props) {
   function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
-      <div
-        className={className}
-        style={{
-          ...style,
-          display: "block",
-          background: "black",
-          borderRadius: "10px",
-        }}
-        onClick={onClick}
+      <SliderButton
+        buttonType={"prev"}
+        handleClick={onClick}
+        icon={<KeyboardArrowLeftIcon />}
       />
+      // <Button
+      //   onClick={onClick}
+      //   sx={{
+      //     position: "absolute",
+      //     left: 0,
+      //     top: "50%",
+      //     transform: "translateY(-50%)",
+      //     minWidth: "initial",
+      //     maxWidth: "initial",
+      //     display: "inline-flex",
+      //     height: 25,
+      //     width: 25,
+      //     borderRadius: "50%",
+      //     zIndex: "999",
+      //     p: 0,
+      //   }}
+      // >
+      //   <KeyboardArrowLeftIcon />
+      // </Button>
+      // <div
+      //   className={className}
+      //   style={{
+      //     ...style,
+      //     display: "block",
+      //     background: "black",
+      //     borderRadius: "10px",
+      //   }}
+
+      // />
     );
   }
 
