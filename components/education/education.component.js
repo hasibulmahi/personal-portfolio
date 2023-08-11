@@ -148,7 +148,7 @@ function Education(props) {
                   fontSize={13}
                   fontWeight={500}
                 >
-                  CSS6
+                  Material UI
                 </Typography>
                 <LinearProgressWithLabel value={95} />
               </Box>
@@ -159,7 +159,7 @@ function Education(props) {
                   fontSize={13}
                   fontWeight={500}
                 >
-                  HTML5
+                  MongoDB
                 </Typography>
                 <LinearProgressWithLabel value={95} />
               </Box>
