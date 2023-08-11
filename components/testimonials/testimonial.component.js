@@ -19,6 +19,7 @@ const imageURL = "/grey-bg.png";
 function Testimonial(props) {
   return (
     <SectionWrapper
+      sectionId="testimonials"
       sectionSx={{
         backgroundImage: `url(${imageURL})`,
       }}

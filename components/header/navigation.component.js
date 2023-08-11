@@ -19,7 +19,29 @@ import React, { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 
 const drawerWidth = 240;
-const navItems = ["Home", "Services", "Portfolios", "Blog", "Contact", "..."];
+// const navItems = ["Home", "Services", "Portfolios", "Blog", "Contact", "..."];
+const navItems = [
+  {
+    text: "Home",
+    permalink: "home",
+  },
+  {
+    text: "Services",
+    permalink: "services",
+  },
+  {
+    text: "Portfolios",
+    permalink: "portfolios",
+  },
+  {
+    text: "Testimonials",
+    permalink: "testimonials",
+  },
+  {
+    text: "Contact",
+    permalink: "contact",
+  },
+];
 
 function Navigation(props) {
   const { window } = props;
@@ -36,10 +58,10 @@ function Navigation(props) {
       </Typography>
       <Divider />
       <List>
-        {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={item} />
+        {navItems.map((item, i) => (
+          <ListItem key={i} disablePadding>
+            <ListItemButton sx={{ textAlign: "center" }} id={item.permalink}>
+              <ListItemText primary={item.text} />
             </ListItemButton>
           </ListItem>
         ))}
@@ -86,12 +108,13 @@ function Navigation(props) {
               },
             }}
           >
-            {navItems.map((item) => (
+            {navItems.map((item, i) => (
               <Button
                 sx={{ textTransform: "capitalize", marginRight: "30px" }}
-                key={item}
+                key={i}
+                href={`#${item.permalink}`}
               >
-                {item}
+                {item.text}
               </Button>
             ))}
           </Box>

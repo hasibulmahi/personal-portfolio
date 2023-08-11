@@ -10,6 +10,7 @@ const imageURL = "/white-bg.png";
 function Hero(props) {
   return (
     <SectionWrapper
+      sectionId="home"
       sectionSx={{
         backgroundImage: `url(${imageURL})`,
       }}
@@ -80,9 +81,14 @@ function Hero(props) {
               <Box>
                 {FooterSocialMedia &&
                   FooterSocialMedia.map((item, i) => (
-                    <IconButton sx={{
-                      color: "black"
-                    }} key={i} aria-label="delete" href={item.link}>
+                    <IconButton
+                      sx={{
+                        color: "black",
+                      }}
+                      key={i}
+                      aria-label="delete"
+                      href={item.link}
+                    >
                       {item.icon}
                     </IconButton>
                   ))}

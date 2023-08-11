@@ -16,6 +16,7 @@ const imageURL = "/grey-bg.png";
 function Services(props) {
   return (
     <SectionWrapper
+      sectionId={"services"}
       sectionSx={{
         backgroundImage: `url(${imageURL})`,
       }}

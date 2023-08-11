@@ -9,9 +9,11 @@ function SectionWrapper({
   pb = "9.375rem",
   sectionSx,
   children,
+  sectionId = "#",
 }) {
   return (
     <Box
+      id={sectionId}
       sx={{
         paddingTop: pt,
         paddingBottom: pb,

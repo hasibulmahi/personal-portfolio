@@ -25,6 +25,7 @@ function Contact(props) {
   const imageURL = "/grey-bg.png";
   return (
     <SectionWrapper
+      sectionId="contact"
       sectionSx={{
         backgroundImage: `url(${imageURL})`,
       }}

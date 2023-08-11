@@ -92,6 +92,7 @@ function Portfolios(props) {
   const imageURL = "/white-bg.png";
   return (
     <SectionWrapper
+      sectionId="portfolios"
       sectionSx={{
         backgroundImage: `url(${imageURL})`,
       }}
