@@ -66,7 +66,7 @@ function Education(props) {
             <Box>
               <Typography
                 sx={{
-                  mb: 5,
+                  mb: 3,
                 }}
                 fontSize={13}
                 lineHeight={2}
@@ -79,7 +79,7 @@ function Education(props) {
             <Stack>
               <Box
                 sx={{
-                  mb: 5,
+                  mb: 3,
                 }}
               >
                 <Typography
@@ -94,7 +94,7 @@ function Education(props) {
               </Box>
               <Box
                 sx={{
-                  mb: 5,
+                  mb: 3,
                 }}
               >
                 <Typography
@@ -109,7 +109,22 @@ function Education(props) {
               </Box>
               <Box
                 sx={{
-                  mb: 5,
+                  mb: 3,
+                }}
+              >
+                <Typography
+                  marginBottom={1}
+                  variant="h5"
+                  fontSize={13}
+                  fontWeight={500}
+                >
+                  Node.js
+                </Typography>
+                <LinearProgressWithLabel value={75} />
+              </Box>
+              <Box
+                sx={{
+                  mb: 3,
                 }}
               >
                 <Typography
@@ -119,6 +134,32 @@ function Education(props) {
                   fontWeight={500}
                 >
                   JavaScript
+                </Typography>
+                <LinearProgressWithLabel value={95} />
+              </Box>
+              <Box
+                sx={{
+                  mb: 3,
+                }}
+              >
+                <Typography
+                  marginBottom={1}
+                  variant="h5"
+                  fontSize={13}
+                  fontWeight={500}
+                >
+                  CSS6
+                </Typography>
+                <LinearProgressWithLabel value={95} />
+              </Box>
+              <Box>
+                <Typography
+                  marginBottom={1}
+                  variant="h5"
+                  fontSize={13}
+                  fontWeight={500}
+                >
+                  HTML5
                 </Typography>
                 <LinearProgressWithLabel value={95} />
               </Box>

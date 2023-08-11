@@ -36,7 +36,7 @@ function Testimonial(props) {
           {ClientReview &&
             ClientReview.map((item, i) => {
               return (
-                <Grid item xs={4} key={i}>
+                <Grid item md={4} xs={12} key={i}>
                   <Card>
                     <CardMedia
                       component="img"

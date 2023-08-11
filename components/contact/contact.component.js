@@ -38,82 +38,80 @@ function Contact(props) {
       />
 
       <Container>
-        <Grid container justifyContent="space-between">
-          <Grid item xs={6}>
+        <Grid container justify="space-between" spacing={12}>
+          <Grid item md={6} xs={12}>
             <Box>
-              <Box>
-                <form onSubmit={handleSubmit}>
-                  <TextField
-                    sx={{
-                      marginBottom: 2,
-                      backgroundColor: "#FFF",
-                      ".MuiFormLabel-root": {
-                        fontSize: "13px !important",
-                        fontWeight: "500",
-                      },
-                    }}
-                    label="Name"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                    required
-                    fullWidth
-                  />
-                  <TextField
-                    sx={{
-                      marginBottom: 2,
-                      backgroundColor: "#FFF",
-                      border: "1px #FFF",
-                      ".MuiFormLabel-root": {
-                        fontSize: "13px !important",
-                        fontWeight: "500",
-                      },
-                    }}
-                    label="Email"
-                    value={email}
-                    type="email"
-                    onChange={(e) => setEmail(e.target.value)}
-                    required
-                    fullWidth
-                  />
-                  <TextField
-                    sx={{
-                      marginBottom: 2,
-                      backgroundColor: "#FFF",
-                      ".MuiFormLabel-root": {
-                        fontSize: "13px !important",
-                        fontWeight: "500",
-                      },
-                    }}
-                    label="Comment"
-                    value={message}
-                    onChange={(e) => setMessage(e.target.value)}
-                    required
-                    fullWidth
-                    multiline
-                    rows={6}
-                  />
-                  <Button
-                    variant="contained"
-                    type="submit"
-                    fullWidth
-                    sx={{
-                      bgcolor: "#7E74F1",
-                      textTransform: "capitalize",
-                    }}
-                  >
-                    Submit
-                  </Button>
-                </form>
-              </Box>
+              <form onSubmit={handleSubmit}>
+                <TextField
+                  sx={{
+                    marginBottom: 2,
+                    backgroundColor: "#FFF",
+                    ".MuiFormLabel-root": {
+                      fontSize: "13px !important",
+                      fontWeight: "500",
+                    },
+                  }}
+                  label="Name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  required
+                  fullWidth
+                />
+                <TextField
+                  sx={{
+                    marginBottom: 2,
+                    backgroundColor: "#FFF",
+                    border: "1px #FFF",
+                    ".MuiFormLabel-root": {
+                      fontSize: "13px !important",
+                      fontWeight: "500",
+                    },
+                  }}
+                  label="Email"
+                  value={email}
+                  type="email"
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                  fullWidth
+                />
+                <TextField
+                  sx={{
+                    marginBottom: 2,
+                    backgroundColor: "#FFF",
+                    ".MuiFormLabel-root": {
+                      fontSize: "13px !important",
+                      fontWeight: "500",
+                    },
+                  }}
+                  label="Comment"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                  required
+                  fullWidth
+                  multiline
+                  rows={6}
+                />
+                <Button
+                  variant="contained"
+                  type="submit"
+                  fullWidth
+                  sx={{
+                    bgcolor: "#7E74F1",
+                    textTransform: "capitalize",
+                  }}
+                >
+                  Submit
+                </Button>
+              </form>
             </Box>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item md={6} xs={12}>
             {ContactItem &&
               ContactItem.map((item, i) => {
                 return (
                   <Stack
                     sx={{
-                      py: "10px",
+                      py: 2,
                     }}
                     direction="row"
                     key={i}
