@@ -17,7 +17,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { portfolios } from "./portfolio-seeds";
 import LinkIcon from "@mui/icons-material/Link";
-import SmartDisplayIcon from '@mui/icons-material/SmartDisplay';
+import SmartDisplayIcon from "@mui/icons-material/SmartDisplay";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 
@@ -223,7 +223,6 @@ function Portfolios(props) {
                               sx={{
                                 p: 0,
                                 color: "#9670ff",
-                                
                               }}
                             >
                               <SmartDisplayIcon />
