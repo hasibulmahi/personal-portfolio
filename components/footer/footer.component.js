@@ -30,7 +30,7 @@ function Footer({ bg }) {
             </IconButton>
           ))}
       </Box>
-      <Typography fontSize={13}>© 2023 - Hasibul Mahi</Typography>
+      <Typography fontSize={13}>All Rights Reserved © 2023 - Hasibul Mahi</Typography>
     </Box>
   );
 }
