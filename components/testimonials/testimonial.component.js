@@ -62,7 +62,7 @@ function Testimonial(props) {
                       <Typography
                         sx={{
                           mb: "5px",
-                          pt: "55px",
+                          pt: "40px",
                         }}
                         variant="h5"
                         fontSize={13}
