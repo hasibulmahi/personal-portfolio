@@ -44,22 +44,25 @@ function Testimonial(props) {
                       justifyContent: "center",
                       position: "relative",
                       zIndex: "1",
-                      top: "60px",
+                      top: "55px",
+                      mb: "5px",
                     }}
                   >
                     <Image
                       src={item.image}
-                      height={120}
-                      width={120}
+                      height={100}
+                      width={100}
                       alt="Picture of the author"
                     />
                   </Box>
                   <Card>
-                    <CardContent>
+                    <CardContent sx={{
+                      ml: "10px"
+                    }}>
                       <Typography
                         sx={{
                           mb: "5px",
-                          pt: "45px",
+                          pt: "55px",
                         }}
                         variant="h5"
                         fontSize={13}
@@ -81,8 +84,9 @@ function Testimonial(props) {
                       </Box>
                       <Typography
                         sx={{
-                          mb: "10px",
+                          mb: "20px",
                           lineHeight: "20px",
+                          mr: "55px",
                         }}
                         fontSize={12}
                       >

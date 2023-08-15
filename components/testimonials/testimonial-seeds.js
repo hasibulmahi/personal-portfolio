@@ -1,26 +1,26 @@
 export const ClientReview = [
   {
     image: "/person-1.png",
-    title: "KMA SALAM",
+    title: "Amelia Miller",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet. Fusce finibus ...",
-    tags: "Full Stack Web Developer",
+      "We were very pleased to hear how you resolved our website's user interface issues and challenges.",
+    tags: "Designer",
     btn: "Continue Reading",
   },
   {
     image: "/person-1.png",
-    title: "KMA SALAM",
+    title: "James Delaney",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet. Fusce finibus ...",
-    tags: "Full Stack Web Developer",
+      "I’m glad I decided to work with you. The project was delivered on time with all the requirements.",
+    tags: "Developer",
     btn: "Continue Reading",
   },
   {
     image: "/person-1.png",
-    title: "KMA SALAM",
+    title: "Isabella Bennett",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id magna nec ante scelerisque laoreet. Fusce finibus ...",
-    tags: "Full Stack Web Developer",
+      "The management of our projects was always faced with difficulties, but you handled these well.",
+    tags: "CTO, Analyzen",
     btn: "Continue Reading",
   },
 ];
