@@ -37,18 +37,29 @@ function Testimonial(props) {
             ClientReview.map((item, i) => {
               return (
                 <Grid item md={4} xs={12} key={i}>
-                  <Card>
-                    <CardMedia
-                      component="img"
-                      height="240px"
-                      width="361px"
-                      image={item.image}
-                      alt="green iguana"
+                  <Box
+                    sx={{
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      position: "relative",
+                      zIndex: "1",
+                      top: "60px",
+                    }}
+                  >
+                    <Image
+                      src={item.image}
+                      height={120}
+                      width={120}
+                      alt="Picture of the author"
                     />
+                  </Box>
+                  <Card>
                     <CardContent>
                       <Typography
                         sx={{
                           mb: "5px",
+                          pt: "45px",
                         }}
                         variant="h5"
                         fontSize={13}
