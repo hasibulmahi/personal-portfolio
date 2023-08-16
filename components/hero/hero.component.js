@@ -4,6 +4,7 @@ import { FooterSocialMedia } from "../footer/social-media.seeds";
 import { Box, Container, Grid, IconButton, Typography } from "@mui/material";
 import SectionWrapper from "../section-wrapper/section-wrapper.component";
 import Image from "next/image";
+import { Scale } from "@mui/icons-material";
 
 const imageURL = "/white-bg.png";
 
@@ -18,11 +19,23 @@ function Hero(props) {
       <Box
         sx={{
           marginTop: "64px",
-          marginBottom: "55px",
+          marginBottom: {
+            xs: 0,
+            md: "55px",
+          },
         }}
       >
         <Container>
-          <Grid container justifyContent={"space-between"}>
+          <Grid
+            container
+            justifyContent={"space-between"}
+            sx={{
+              flexFlow: {
+                xs: "column-reverse",
+                md: "row",
+              },
+            }}
+          >
             <Grid item md={5}>
               <Box
                 sx={{
@@ -35,6 +48,10 @@ function Hero(props) {
                   sx={{
                     letterSpacing: ".75rem",
                     mb: "10px",
+                    fontSize: {
+                      xs: ".5rem",
+                      md: "1rem",
+                    },
                   }}
                 >
                   - MY NAME IS
@@ -50,6 +67,10 @@ function Hero(props) {
                     sx={{
                       fontWeight: "700",
                       paddingRight: "15px",
+                      fontSize: {
+                        xs: "2rem",
+                        md: "3rem",
+                      },
                     }}
                   >
                     Hasibul
@@ -60,6 +81,10 @@ function Hero(props) {
                     sx={{
                       fontWeight: "700",
                       color: "#7E74F1",
+                      fontSize: {
+                        xs: "2rem",
+                        md: "3rem",
+                      },
                     }}
                   >
                     Mahi
@@ -96,25 +121,51 @@ function Hero(props) {
             </Grid>
             <Grid
               sx={{
-                paddingLeft: "80px",
+                paddingLeft: {
+                  xs: 0,
+                  md: "80px",
+                },
+                display: "flex",
+                // alignItems: "flex-end",
+                justifyContent: {
+                  xs: "flex-start",
+                  md: "flex-end",
+                },
+                transform: {
+                  xs: "scale(.8)",
+                  md: "scale(1)",
+                },
+
+                marginBottom: {
+                  xs: "62px",
+                  md: 0,
+                },
               }}
               item
-              sm={7}
+              md={7}
             >
               <Box
                 sx={{
                   position: "relative",
-                  display: "flex",
+                  display: "inline-flex",
                   alignItems: "center",
                   justifyContent: "flex-end",
+                  marginLeft: {
+                    xs: "45px",
+                    md: 0,
+                  },
                 }}
               >
                 <Box
                   sx={{
                     position: "relative",
+                    display: "inline-flex",
                     zIndex: "20",
                     top: "43px",
-                    right: "179px",
+                    right: {
+                      xs: "37px",
+                      md: "61px",
+                    },
                   }}
                 >
                   <Image
@@ -127,11 +178,14 @@ function Hero(props) {
                 <Box
                   sx={{
                     position: "absolute",
-                    height: "389px",
-                    width: "314px",
+                    height: "390px",
+                    width: {
+                      xs: "274px",
+                      md: "304px",
+                    },
                     zIndex: "2",
-                    top: "-46px",
-                    left: "140px",
+                    top: "-48px",
+                    right: "24px",
                   }}
                 >
                   <Image src="/front.png" fill />
@@ -140,10 +194,13 @@ function Hero(props) {
                   sx={{
                     position: "absolute",
                     height: "438px",
-                    width: "355px",
+                    width: {
+                      xs: "326px",
+                      md: "355px",
+                    },
                     zIndex: "1",
                     top: "-70px",
-                    right: "117px",
+                    right: "0px",
                   }}
                 >
                   <Image src="/back.png" fill />

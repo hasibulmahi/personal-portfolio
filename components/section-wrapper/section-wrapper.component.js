@@ -15,8 +15,14 @@ function SectionWrapper({
     <Box
       id={sectionId}
       sx={{
-        paddingTop: pt,
-        paddingBottom: pb,
+        paddingTop: {
+          xs: "4.375rem",
+          md: pt,
+        },
+        paddingBottom: {
+          xs: "4.375rem",
+          md: pb,
+        },
         // backgroundImage: `url(${imageURL})`,
         ...sectionSx,
       }}

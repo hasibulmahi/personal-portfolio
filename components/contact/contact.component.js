@@ -38,8 +38,18 @@ function Contact(props) {
       />
 
       <Container>
-        <Grid container justify="space-between" spacing={12}>
-          <Grid item md={6} xs={12}>
+        <Grid
+          container
+          justify="space-between"
+          spacing={12}
+          sx={{
+            flexFlow: {
+              xs: "column-reverse",
+              sm: "row",
+            },
+          }}
+        >
+          <Grid item sm={6} md={6} xs={12}>
             <Box>
               <form onSubmit={handleSubmit}>
                 <TextField
@@ -105,7 +115,7 @@ function Contact(props) {
               </form>
             </Box>
           </Grid>
-          <Grid item md={6} xs={12}>
+          <Grid item sm={6} md={6} xs={12}>
             {ContactItem &&
               ContactItem.map((item, i) => {
                 return (
