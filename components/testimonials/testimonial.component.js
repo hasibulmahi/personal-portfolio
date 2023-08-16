@@ -56,9 +56,11 @@ function Testimonial(props) {
                     />
                   </Box>
                   <Card>
-                    <CardContent sx={{
-                      ml: "10px"
-                    }}>
+                    <CardContent
+                      sx={{
+                        ml: "10px",
+                      }}
+                    >
                       <Typography
                         sx={{
                           mb: "5px",
