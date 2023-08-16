@@ -3,7 +3,7 @@ export const portfolios = [
     image: "/folio-1.png",
     title: "Personal Portfolio",
     description: `Hello demo lorem ipsum`,
-    tags: ["React", "Next", "MUI"],
+    tags: ["Next", "React", "MUI"],
     link: "https://hasibul-mahi.vercel.app/",
   },
   {

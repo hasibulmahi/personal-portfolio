@@ -119,9 +119,9 @@ function Navigation(props) {
             ))}
           </Box>
           <Box sx={{ display: { xs: "none", sm: "block", ml: "auto" } }}>
-            <Button
+            <Button 
               sx={{ textTransform: "capitalize", borderColor: "#F1F1F1" }}
-              variant="outlined"
+              variant="outlined" Link href="https://drive.google.com/file/d/1Wai9i630pjeQ0YoTmBA-xb78LOw6R4xA/view?usp=sharing"
             >
               Resume
             </Button>

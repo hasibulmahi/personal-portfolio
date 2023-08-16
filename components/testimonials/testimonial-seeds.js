@@ -4,7 +4,7 @@ export const ClientReview = [
     title: "Amelia Miller",
     description:
       "We were very pleased to hear how you resolved our website's user interface issues and challenges.",
-    tags: "Designer",
+    tags: "Product Designer",
     btn: "Continue Reading",
   },
   {
