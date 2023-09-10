@@ -1,5 +1,12 @@
 export const portfolios = [
   {
+    image: "/folio-6.png",
+    title: "Honest-Elite Dashboard",
+    description: `Hello demo lorem ipsum`,
+    tags: ["Next", "React", "MUI"],
+    link: "https://honest-elite-dashboard.vercel.app/",
+  },
+  {
     image: "/folio-1.png",
     title: "Personal Portfolio",
     description: `Hello demo lorem ipsum`,
