@@ -9,6 +9,7 @@ import Education from "@/components/education/education.component";
 import Contact from "@/components/contact/contact.component";
 import Testimonial from "@/components/testimonials/testimonial.component";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
