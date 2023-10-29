@@ -53,14 +53,18 @@ function Navigation(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
+      <Typography color="#7E74F1" variant="h6" sx={{ my: 2 }}>
         Hasibul Mahi
       </Typography>
       <Divider />
       <List>
         {navItems.map((item, i) => (
           <ListItem key={i} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }} id={item.permalink}>
+            <ListItemButton
+              href={`#${item.permalink}`}
+              // id={item.permalink}
+              sx={{ textAlign: "center" }}
+            >
               <ListItemText primary={item.text} />
             </ListItemButton>
           </ListItem>
