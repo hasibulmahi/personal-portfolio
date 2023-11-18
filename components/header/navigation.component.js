@@ -19,7 +19,6 @@ import React, { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 
 const drawerWidth = 240;
-// const navItems = ["Home", "Services", "Portfolios", "Blog", "Contact", "..."];
 const navItems = [
   {
     text: "Home",
