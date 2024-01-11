@@ -121,9 +121,13 @@ function Navigation(props) {
               </Button>
             ))}
           </Box>
-          <Box sx={{ display: { xs: "none", sm: "block", ml: "auto" } }}>
+          <Box>
             <Button
-              sx={{ textTransform: "capitalize", borderColor: "#F1F1F1" }}
+              sx={{
+                textTransform: "capitalize",
+                borderColor: "#F1F1F1",
+                marginLeft: { lg: "none", xs: "none", md: "auto", sm: "auto" },
+              }}
               variant="outlined"
               Link
               href="https://drive.google.com/file/d/1JaAFj9GQSxgNFANhbj7NpRKFYWAJjY6N/view?usp=sharing"
