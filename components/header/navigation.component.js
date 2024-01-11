@@ -126,7 +126,7 @@ function Navigation(props) {
               sx={{ textTransform: "capitalize", borderColor: "#F1F1F1" }}
               variant="outlined"
               Link
-              // href="https://drive.google.com/file/d/1JaAFj9GQSxgNFANhbj7NpRKFYWAJjY6N/view?usp=sharing"
+              href="https://drive.google.com/file/d/1JaAFj9GQSxgNFANhbj7NpRKFYWAJjY6N/view?usp=sharing"
             >
               Resume
             </Button>
