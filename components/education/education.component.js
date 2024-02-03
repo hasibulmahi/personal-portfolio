@@ -148,6 +148,21 @@ function Education(props) {
                   fontSize={13}
                   fontWeight={500}
                 >
+                  Tailwind CSS
+                </Typography>
+                <LinearProgressWithLabel value={95} />
+              </Box>
+              <Box
+                sx={{
+                  mb: 3,
+                }}
+              >
+                <Typography
+                  marginBottom={1}
+                  variant="h5"
+                  fontSize={13}
+                  fontWeight={500}
+                >
                   Material UI
                 </Typography>
                 <LinearProgressWithLabel value={95} />
