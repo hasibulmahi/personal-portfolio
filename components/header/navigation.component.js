@@ -130,7 +130,7 @@ function Navigation(props) {
               }}
               variant="outlined"
               Link
-              href="https://drive.google.com/file/d/1iOgSMVd-_omuSmKefsICjKdMS6S73KYw/view?usp=sharing"
+              href="https://drive.google.com/file/d/1u2kaWALcZbRt7M7HwGz5YbCawadsugyz/view?usp=sharing"
             >
               Resume
             </Button>
