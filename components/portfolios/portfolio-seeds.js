@@ -1,5 +1,12 @@
 export const portfolios = [
   {
+    image: "/folio-7.png",
+    title: "Bazaar E-commerce",
+    description: `Hello demo lorem ipsum`,
+    tags: ["Next", "React", "MUI"],
+    link: "https://bazaar-ecommerce-dev.vercel.app/",
+  },
+  {
     image: "/folio-6.png",
     title: "Honest-Elite Dashboard",
     description: `Hello demo lorem ipsum`,
