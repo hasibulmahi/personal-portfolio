@@ -162,17 +162,17 @@ function Hero(props) {
                     position: "relative",
                     display: "inline-flex",
                     zIndex: "20",
-                    top: "43px",
+                    top: "-33px",
                     right: {
-                      xs: "37px",
-                      md: "61px",
+                      xs: "7px",
+                      md: "31px",
                     },
                   }}
                 >
                   <Image
-                    src="/hero-23.png"
-                    width={"245"}
-                    height={"300"}
+                    src="/hero-24.png"
+                    width={"300"}
+                    height={"375"}
                     alt="Hero Image"
                   />
                 </Box>
