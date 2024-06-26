@@ -4,7 +4,7 @@ export const portfolios = [
     title: "Imperial Legacy Inc.",
     description: `Hello demo lorem ipsum`,
     tags: ["Next", "TailwindCSS", "Shadcn/UI"],
-    link: "https://rabeya-group-frontend.vercel.app/",
+    link: "https://imperial-legacy-client.vercel.app/",
   },
   {
     image: "/folio-8.png",
