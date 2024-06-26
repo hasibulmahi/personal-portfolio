@@ -1,5 +1,19 @@
 export const portfolios = [
   {
+    image: "/folio-9.png",
+    title: "Imperial Legacy Inc.",
+    description: `Hello demo lorem ipsum`,
+    tags: ["Next", "TailwindCSS", "Shadcn/UI"],
+    link: "https://rabeya-group-frontend.vercel.app/",
+  },
+  {
+    image: "/folio-8.png",
+    title: "Rabeya Group ERP",
+    description: `Hello demo lorem ipsum`,
+    tags: ["React", "TailwindCSS", "Express"],
+    link: "https://rabeya-group-frontend.vercel.app/",
+  },
+  {
     image: "/folio-7.png",
     title: "Bazaar E-commerce",
     description: `Hello demo lorem ipsum`,
