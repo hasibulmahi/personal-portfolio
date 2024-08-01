@@ -151,8 +151,8 @@ function Hero(props) {
                   alignItems: "center",
                   justifyContent: "flex-end",
                   marginLeft: {
-                    xs: "130px",
-                    sm: "250px",
+                    xs: "50px",
+                    sm: "200px",
                     md: 0,
                   },
                 }}
