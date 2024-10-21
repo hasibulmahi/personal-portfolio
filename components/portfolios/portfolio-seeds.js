@@ -1,5 +1,33 @@
 export const portfolios = [
   {
+    image: "/folio-13.png",
+    title: "Happy Jolly E-commerce",
+    description: `Hello demo lorem ipsum`,
+    tags: ["Next", "Shadcn/UI", "Zustand"],
+    link: "https://repliq-ecommerce-eight.vercel.app/",
+  },
+  {
+    image: "/folio-10.png",
+    title: "Verge Sourcing",
+    description: `Hello demo lorem ipsum`,
+    tags: ["Next", "Three.js", "Shadcn/UI"],
+    link: "https://vergesourcing-client.vercel.app/",
+  },
+  {
+    image: "/folio-11.png",
+    title: "Sleek Portfolio",
+    description: `Hello demo lorem ipsum`,
+    tags: ["Next", "TailwindCSS", "Shadcn/UI"],
+    link: "https://sleek-portfolio-alpha.vercel.app/",
+  },
+  {
+    image: "/folio-12.png",
+    title: "HonestElite [Social Media]",
+    description: `Hello demo lorem ipsum`,
+    tags: ["Next", "TailwindCSS", "Shadcn/UI"],
+    link: "https://prod.honestelite.com",
+  },
+  {
     image: "/folio-9.png",
     title: "Imperial Legacy Inc.",
     description: `Hello demo lorem ipsum`,
