@@ -111,7 +111,7 @@ function Portfolios(props) {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 2500,
     responsive: [
       {
         breakpoint: 1024,
@@ -220,6 +220,7 @@ function Portfolios(props) {
                               );
                             })}
                             <IconButton
+                              target="_blank"
                               aria-label="SmartDisplayIcon"
                               href={item.link}
                               sx={{
