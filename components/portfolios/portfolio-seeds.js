@@ -1,4 +1,26 @@
 export const portfolios = [
+
+  {
+    image: "/folio-yoorix-pos.jpg",
+    title: "Yoorix POS",
+    description: `Hello demo lorem ipsum`,
+    tags: ["Laravel", "Inertia-React", "Shadcn/UI"],
+    link: "https://yoorix.store.com/",
+  },
+  {
+    image: "/folio-yoorix-ecommerce.jpg",
+    title: "Yoorix Ecommerce",
+    description: `Hello demo lorem ipsum`,
+    tags: ["Nuxt", "Bootstrap", "Context API"],
+    link: "https://yoorix.com/",
+  },
+  {
+    image: "/folio-bigshop.jpg",
+    title: "1 BigShop E-commerce",
+    description: `Hello demo lorem ipsum`,
+    tags: ["Next", "Shadcn/UI", "Zustand"],
+    link: "https://1-big-shop.vercel.app/",
+  },
   {
     image: "/folio-13.png",
     title: "Happy Jolly E-commerce",
