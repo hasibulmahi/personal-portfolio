@@ -5,7 +5,7 @@ export const portfolios = [
     title: "Yoorix POS",
     description: `Hello demo lorem ipsum`,
     tags: ["Laravel", "Inertia-React", "Shadcn/UI"],
-    link: "https://yoorix.store.com/",
+    link: "https://yoorix.store/",
   },
   {
     image: "/folio-yoorix-ecommerce.jpg",
