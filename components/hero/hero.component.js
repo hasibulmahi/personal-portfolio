@@ -99,7 +99,7 @@ function Hero(props) {
                 variant="h5"
                 fontSize={13}
               >
-                Creative front-end developer with more than +3 years of
+                Creative Full-Stack developer with more than +3 years of
                 experience in enterprise companies and startups. Proficient in
                 JavaScript, React and Next.js. Passionate about programming.
               </Typography>

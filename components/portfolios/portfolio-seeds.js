@@ -1,6 +1,13 @@
 export const portfolios = [
 
   {
+    image: "/folio-quickhire.jpg",
+    title: "QuickHire",
+    description: `Hello demo lorem ipsum`,
+    tags: ["NextJS", "Shadcn/UI", "Express.js"],
+    link: "https://quick-hire-ruby.vercel.app/",
+  },
+  {
     image: "/folio-yoorix-pos.jpg",
     title: "Yoorix POS",
     description: `Hello demo lorem ipsum`,
